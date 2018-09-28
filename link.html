@@ -1,45 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tutobalises</title>
+	<title>structure page de garde</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/balises.css">
 </head>
 <body>
-    
-    <h1><code>&lt;link&gt;</code></h1>
+	<header>
+		<h1><a href="body.html"><img src="images/html.jpg"></a></h1>
+		
 
-    <p>L'élément HTML &lt;link&gt; définit la relation entre le document courant et une ressource externe. Cet 
-        élément peut être utilisé pour définir un lien vers une feuille de style ou un cadre de navigation (accéder 
-        à la même page dans une langue différente par exemple).</p>
-    
-    <p>Pour comprendre ces exemples il est important de savoir que CSS est le langage de feuilles de styles le plus 
-        courant.</p>
+	</header>
+	<nav>
+		<div>
+				  <ul class="menu">
+        <li>Squelette
+            <ul class="sousmenu">
+                <li><a href="body.html">body</a></li>
+                <li><a href="footer.html">footer</a></li>
+                <li><a href="meta.html">meta</a></li>
+            </ul>
+        </li>
+        <li>Insertion
+            <ul class="sousmenu">
+                <li><a href="link.html">link</a></li>
+                <li><a href="textarea.html">textarea</a></li>
+                <li><a href="img.html">img</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="div.html">div</a></li>
+            </ul>
+        </li>
+        <li>Présentation
+            <ul class="sousmenu">
+                <li><a href="h1h6.html">h1, h6</a></li>
+                <li><a href="li.html">li</a></li>
+                <li><a href="ul.html">ul</a></li>
+                <li><a href="br.html">br</a></li>
+                <li><a href="title.html">title</a></li>
+                <li><a href="p.html">p</a></li>
+                <li><a href="u.html">u</a></li>
+                <li><a href="b.html">b</a></li>
+            </ul>
+        </li>
+        <li>Contact
+            <ul class="sousmenu">
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+            </ul>
+                </li>
+            </ul>
+        </li>
+        
+    </ul>
 
-    <h2>Associer une feuille de style</h2>
+		</div>
 
-    <p>Pour associer une feuille de style à la page courante, on utilisera la syntaxe suivante :</p>
 
-    <p><img src="images/link1.jpg"  alt="Link exemple 1" /></p>
 
-    <h2>feuilles de style alternatives</h2>
 
-    <p>Pour un document, on peut indiquer plusieurs feuilles de style alternatives. Sur le navigateur, l'utilisateur 
-        pourra choisir parmi ces feuilles de style via le menu « Affichage > Style de la page ». Ainsi, un utilisateur 
-        pourra voir différentes versions d'une même page.</p>
 
-    <p><img src="images/link2.jpg"  alt="Link exemple 2" /></p>
 
-    <h2>Évènements déclenchés au chargement d'une feuille de style</h2>
+	</nav>
 
-    <p>Il est possible de déterminer si une feuille de style a été chargée en écoutant l'évènement load. De la même 
-        façon, un évènement error indiquera qu'une erreur a eu lieu lors du traitement de la feuille de style:</p>
-    
-    <p><img src="images/link3.jpg"  alt="Link exemple 3" /></p>
+	<footer>
+        <p class="def">Balise &lt;link&gt;</p>
+        
+        <p class="txtlink">L'élément HTML &lt;link&gt; définit la relation entre le document courant et une ressource externe. Cet 
+            élément peut être utilisé pour définir un lien vers une feuille de style ou un cadre de navigation (accéder 
+            à la même page dans une langue différente par exemple).</p>
+            
+        <p class="txtlink">Pour comprendre ces exemples il est important de savoir que CSS est le langage de feuilles de styles le plus 
+            courant.</p>
+        
+        <h2 class="txtlink">Associer une feuille de style</h2>
+        
+        <p class="txtlink">Pour associer une feuille de style à la page courante, on utilisera la syntaxe suivante :</p>
 
-    <p>Note : L'évènement load est déclenché une fois que la feuille de style et que le contenu associé ont été 
-        chargés et analysés et immédiatement avant que la mise en forme soit appliquée au contenu.</p>
-    
+        <p class="txtlink"><img src="images/link1.jpg"  class="link1" alt="Premier exemple link"/></p>
+
+        <h2 class="txtlink">feuilles de style alternatives</h2>
+        
+        <p class="txtlink">Pour un document, on peut indiquer plusieurs feuilles de style alternatives. Sur le navigateur, l'utilisateur 
+            pourra choisir parmi ces feuilles de style via le menu « Affichage > Style de la page ». Ainsi, un utilisateur 
+            pourra voir différentes versions d'une même page.</p>
+        
+        <p class="txtlink"><img src="images/link2.jpg"  class="link2" alt="Deuxième exemple link" /></p>
+        
+        <h2 class="txtlink">Évènements déclenchés au chargement d'une feuille de style</h2>
+        
+        <p class="txtlink">Il est possible de déterminer si une feuille de style a été chargée en écoutant l'évènement load. De la même 
+            façon, un évènement error indiquera qu'une erreur a eu lieu lors du traitement de la feuille de style:</p>
+            
+        <p class="txtlink"><img src="images/link3.jpg"  class="link3" alt="Troisième exemple link" /></p>
+        
+        <p class="txtlink">Note : L'évènement load est déclenché une fois que la feuille de style et que le contenu associé ont été 
+            chargés et analysés et immédiatement avant que la mise en forme soit appliquée au contenu.</p>
+		
+
+
+    </footer>	
+
 </body>
 </html>
