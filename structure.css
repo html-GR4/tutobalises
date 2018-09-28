@@ -4,7 +4,6 @@ div{
 	left:450px;
 
 }
-.
 
 
 p{
@@ -18,7 +17,7 @@ img{
 	left:105px;
 }
 body{
-	background-color:black;color:white;width:880px;
+	background-color:black;color:white; width:800px;
 }
 .menu>li
 {
@@ -66,4 +65,11 @@ ul li .sousmenu{
 }
 a{
 	color:white;
+}
+
+.txtpdg{
+	position: relative;
+	left: 450px;
+	top: 300px;
+	width: 750px;
 }
