@@ -1,0 +1,344 @@
+div{
+	display: inline-block;
+	position:relative;
+	left:450px;
+
+}
+
+p{
+	font-size: 20px
+}
+
+img{
+	width:150px;
+	position: relative;
+	left:105px;
+}
+
+.imgb{
+	margin-left: 480px;
+	width: 500px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.imgu{
+	margin-left: 480px;
+	width: 500px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.divimg{
+	margin-left: 480px;
+	width: 500px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.imgbody{
+	margin-left: 480px;
+	width: 500px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.imgfooter{
+	margin-left: 315px;
+	width: 800px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.imgform{
+	margin-left: 320px;
+	width: 800px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.img2{
+	margin-left: 310px;
+	width: 800px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.imgmeta{
+	margin-left: 315px;
+	width: 800px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+body{
+	background-color:black;color:white;width: 800px
+}
+.menu>li
+{
+    display:inline-block;
+    position:relative;
+    font-size:2em;
+    margin-left:30px;
+}
+
+ul li .sousmenu{
+    display: none;
+    background:#3B0B17;
+}
+
+.menu>li:hover ul
+{
+    display: inline-block;
+    position: absolute;
+    left:0px;
+    padding: 0;
+    top:100%;
+    z-index: 1;
+}
+.menu{
+	cursor: pointer;border: 1px solid white;
+	padding-right: 55px
+
+}
+.def{
+	position:relative;
+	left:645px;top:250px;
+	top:200px;
+	font-size: 50px
+}
+
+.defb{
+	position:absolute;
+	left:670px;
+	top:200px;
+	font-size: 50px
+}
+
+.defdiv{
+	position:absolute;
+	left:670px;
+	top:200px;
+	font-size: 50px
+}
+
+.defu{
+	position:absolute;
+	left:670px;
+	top:200px;
+	font-size: 50px
+}
+
+.defmeta{
+	position:absolute;
+	left:670px;
+	top:200px;
+	font-size: 50px
+}
+
+.sousmenu
+{
+	list-style:none;
+}
+.picture{
+	position: relative;
+	left:517px;
+	width:600px;
+	z-index: 0;
+
+}
+a{
+	color:white;
+}
+
+.txt{
+	position: relative;
+	left: 450px;
+	top: 455px;
+	width: 750px;
+}
+
+.txtpdg{
+	position: relative;
+	left: 450px;
+	top: 300px;
+	width: 750px;
+}
+
+.txtlink{
+	position: relative;
+	left: 450px;
+	top: 150px;
+	width: 750px;
+}
+
+.txtp{
+	position: relative;
+	left: 450px;
+	top: 150px;
+	width: 750px;
+}
+
+.txtb{
+	position: relative;
+	left: 450px;
+	top: 320px;
+	width: 750px;
+}
+
+.txtarea{
+	position: relative;
+	left: 450px;
+	top: 150px;
+	width: 750px;
+}
+
+.txttitle{
+	position: relative;
+	left: 450px;
+	top: 150px;
+	width: 750px;
+}
+
+.txtdiv{
+	position: relative;
+	left: 450px;
+	top: 530px;
+	width: 750px;
+}
+
+.txtu{
+	position: relative;
+	left: 450px;
+	top: 320px;
+	width: 750px;
+}
+
+.txtmeta{
+	position: relative;
+	left: 450px;
+	top: 555px;
+	width: 750px;
+}
+
+.txtimg{
+	position: relative;
+	left: 450px;
+	top: 555px;
+	width: 750px;
+}
+
+.link1{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.link2{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.link3{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+.p1{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.p2{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+.textarea1{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.textarea2{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+.title1{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.title2{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.title3{
+	display: inline-block;
+	display: inline-block;
+    width: 740px;
+    height: auto;
+    padding: 0px;
+	left: 0px;
+}
+
+.h1{
+	position:absolute;
+	left:615px;
+	top:200px;
+	font-size: 50px
+}
+
+.ul{
+	position:absolute;
+	left:700px;
+	top:200px;
+	font-size: 50px
+}
+
+.br{
+position:absolute;
+	left:700px;
+	top:200px;
+	font-size: 50px
+}
+
+.li{
+position:absolute;
+	left:700px;
+	top:200px;
+	font-size: 50px
+}
