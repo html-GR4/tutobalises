@@ -14,10 +14,10 @@ p{
 img{
 	width:150px;
 	position: relative;
-	left:105px;
-}
-body{
-	background-color:black;color:white;width:880px;
+		left:105px;
+	}
+	body{
+	background-color:black;color:white;width: 800px
 }
 .menu>li
 {
@@ -46,9 +46,10 @@ ul li .sousmenu{
 	padding-right: 55px
 
 }
-.def{
-	position:relative;
-	left:645px;top:250px;
+.defu{
+	position:absolute;
+	left:670px;
+	top:200px;
 	font-size: 50px
 
 }
@@ -57,12 +58,30 @@ ul li .sousmenu{
 	list-style:none;
 }
 .picture{
-	position: relative;
+	position: relative
 	left:517px;
 	width:600px;
 	z-index: 0;
 
-}
+}	
 a{
 	color:white;
 }
+.txtu{
+	position: relative;
+	left: 450px;
+	top: 320px;
+	width: 750px;
+}
+.imgu{
+	margin-left: 480px;
+	width: 500px;
+	position: absolute;
+	margin-top: 150px;
+
+	
+
+
+
+}
+	
