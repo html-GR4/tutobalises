@@ -54,7 +54,7 @@ img{
 	margin-left: 320px;
 	width: 800px;
 	position: absolute;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .img2{
@@ -110,7 +110,7 @@ ul li .sousmenu{
 
 .defb{
 	position:absolute;
-	left:670px;
+	left:690px;
 	top:200px;
 	font-size: 50px
 }
@@ -124,7 +124,7 @@ ul li .sousmenu{
 
 .defu{
 	position:absolute;
-	left:670px;
+	left:690px;
 	top:200px;
 	font-size: 50px
 }
@@ -369,7 +369,7 @@ position:absolute;
 .txtform{
 	position: relative;
 	left: 450px;
-	top:30px;
+	top:0px;
 	width: 750px;
 }
 .deflink{
