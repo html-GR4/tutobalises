@@ -103,8 +103,8 @@ ul li .sousmenu{
 }
 .def{
 	position:relative;
-	left:645px;top:250px;
-	top:200px;
+	left:690px;
+	top:0px;
 	font-size: 50px
 }
 
@@ -175,7 +175,7 @@ a{
 .txtp{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 0px;
 	width: 750px;
 }
 
