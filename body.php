@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/balises.css">
 </head>
 <body>
+	<?php echo "premier jour en PHP"?>
+	
 	<header>
 		<h1><a href="pdg.html"><img src="images/html.jpg"></a></h1>
 		
@@ -72,7 +74,30 @@
         
 
 
-      
+      <?php echo"premier test en PHP<br>";
+      print "deuxième essai<br>";
+      echo 85;
+
+
+      ?>
+      <?php print"il ca falloir être attentif car sans rigueur trop d'erreurs<br>";
+      echo"il faut continuer";print 999;
+      ?>
+       <?php echo 'essayons ppour échapper les "guillemets"<br>';
+       print'"bonjour" à tous';
+       // un commentaire monoligne
+       /*un commentaire multilignes
+       un com
+       */ echo"Essai une fois de plus lus";
+       print "bonjour";
+       // com 
+       # un autre com
+       /*un autre com*/;
+       echo"envoyer le doc";
+
+
+
+      ?>
 		
 
 
