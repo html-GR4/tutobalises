@@ -54,7 +54,7 @@ img{
 	margin-left: 320px;
 	width: 800px;
 	position: absolute;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .img2{
@@ -110,7 +110,7 @@ ul li .sousmenu{
 
 .defb{
 	position:absolute;
-	left:670px;
+	left:690px;
 	top:200px;
 	font-size: 50px
 }
@@ -124,7 +124,7 @@ ul li .sousmenu{
 
 .defu{
 	position:absolute;
-	left:670px;
+	left:690px;
 	top:200px;
 	font-size: 50px
 }
@@ -354,7 +354,6 @@ position:absolute;
 	top:200px;
 	font-size: 50px
 }
-<<<<<<< HEAD
 .deftitle{
 	position:relative;
 	left:690px;
@@ -370,7 +369,7 @@ position:absolute;
 .txtform{
 	position: relative;
 	left: 450px;
-	top:30px;
+	top:0px;
 	width: 750px;
 }
 .deflink{
@@ -379,7 +378,7 @@ position:absolute;
 	top:0px;
 	font-size: 50px
 }
-=======
+
 .deftexta{
 	position:absolute;
 	left:660px;
@@ -398,13 +397,10 @@ position:absolute;
 	top:200px;
 	font-size: 50px
 }
-<<<<<<< HEAD
+
 .defhtml{
 	position:absolute;
 	left:660px;
 	top:520px;
 	font-size: 50px
 }
-=======
->>>>>>> a3369c7111a2a575e7d44ff6775b5586d99fe45b
->>>>>>> 8c4991edb67d7f519c2fde0b2317b29315d59d52
