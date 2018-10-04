@@ -168,7 +168,7 @@ a{
 .txtlink{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 0px;
 	width: 750px;
 }
 
@@ -196,7 +196,7 @@ a{
 .txttitle{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 0px;
 	width: 750px;
 }
 
@@ -354,6 +354,32 @@ position:absolute;
 	top:200px;
 	font-size: 50px
 }
+<<<<<<< HEAD
+.deftitle{
+	position:relative;
+	left:690px;
+	top:0px;
+	font-size: 50px
+}
+.defform{
+	position:relative;
+	left:670px;
+	top:0px;
+	font-size: 50px
+}
+.txtform{
+	position: relative;
+	left: 450px;
+	top:30px;
+	width: 750px;
+}
+.deflink{
+	position:relative;
+	left:695px;
+	top:0px;
+	font-size: 50px
+}
+=======
 .deftexta{
 	position:absolute;
 	left:660px;
@@ -372,9 +398,13 @@ position:absolute;
 	top:200px;
 	font-size: 50px
 }
+<<<<<<< HEAD
 .defhtml{
 	position:absolute;
 	left:660px;
 	top:520px;
 	font-size: 50px
 }
+=======
+>>>>>>> a3369c7111a2a575e7d44ff6775b5586d99fe45b
+>>>>>>> 8c4991edb67d7f519c2fde0b2317b29315d59d52
