@@ -103,8 +103,8 @@ ul li .sousmenu{
 }
 .def{
 	position:relative;
-	left:645px;top:250px;
-	top:200px;
+	left:700px;
+	top:0px;
 	font-size: 50px
 }
 
@@ -131,7 +131,7 @@ ul li .sousmenu{
 
 .defmeta{
 	position:absolute;
-	left:670px;
+	left:660px;
 	top:200px;
 	font-size: 50px
 }
@@ -339,6 +339,36 @@ position:absolute;
 .li{
 position:absolute;
 	left:700px;
+	top:200px;
+	font-size: 50px
+}
+.deffooter{
+	position:absolute;
+	left:650px;
+	top:200px;
+	font-size: 50px
+}
+.defpara{
+	position:absolute;
+	left:700px;
+	top:200px;
+	font-size: 50px
+}
+.deftexta{
+	position:absolute;
+	left:660px;
+	top:200px;
+	font-size: 50px
+}
+.defimg{
+	position:absolute;
+	left:650px;
+	top:200px;
+	font-size: 50px
+}
+.defbodyy{
+	position:absolute;
+	left:677px;
 	top:200px;
 	font-size: 50px
 }
