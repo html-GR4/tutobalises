@@ -168,7 +168,7 @@ a{
 .txtlink{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 0px;
 	width: 750px;
 }
 
@@ -196,7 +196,7 @@ a{
 .txttitle{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 0px;
 	width: 750px;
 }
 
@@ -352,5 +352,29 @@ position:absolute;
 	position:absolute;
 	left:700px;
 	top:200px;
+	font-size: 50px
+}
+.deftitle{
+	position:relative;
+	left:690px;
+	top:0px;
+	font-size: 50px
+}
+.defform{
+	position:relative;
+	left:670px;
+	top:0px;
+	font-size: 50px
+}
+.txtform{
+	position: relative;
+	left: 450px;
+	top:30px;
+	width: 750px;
+}
+.deflink{
+	position:relative;
+	left:695px;
+	top:0px;
 	font-size: 50px
 }
