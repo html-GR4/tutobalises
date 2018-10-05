@@ -1,20 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>structure page de garde</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/balises.css">
-</head>
-<body>
-	<header>
-		<h1><a href="pdg.html"><img src="images/html.jpg"></a></h1>
-		
-
-	</header>
-	<nav>
-		<div>
-				  <ul class="menu">
+<?php include ("tete.html"); ?>
+    <nav>
+        <div>
+                  <ul class="menu">
         <li>Squelette
             <ul class="sousmenu">
                 <li><a href="body.html">body</a></li>
@@ -56,40 +43,32 @@
         
     </ul>
 
-		</div>
+        </div>
 
 
 
 
 
 
-</nav>
+	</nav>
 
-
-
-<footer>
-<p class="defimg">La balise "img"<br><br></p>
-<p><img src="images/imtxt.png" alt="description de la balise img" class="img2"></p>
-<p class="txtimg">L'élément HTML &lt;img&gt; permet de représenter une image dans un document.
-	Dans l'exemple qui précède, on utilise l'élément &lt;img&gt; simplement. L'attribut src est obligatoire et contient le chemin de l'image qu'on souhaite afficher. L'attribut alt n'est pas obligatoire mais recommandé et contient une description textuelle de l'image ; il est recommandé pour des raisons d'accessibilité et sera utilisé par les lecteurs d'écran ou sera affiché si l'image ne peut pas être chargée.
+     
 	
+	<footer>
+        <p class="li">La balise "li"<br><br></p>
+        <p><img src="images/captureli.jpg" class="imgbody"></p>
+         <p class="txt">L'élément HTML < li > est utilisé pour représenter un élément dans une liste. Il doit être contenu dans un élément parent : une liste ordonnée (< ol >), une liste non ordonnée (< ul >) ou un menu (< menu >).<br> Dans les menus et les listes non ordonnées, les éléments de liste sont habituellement affichés en utilisant des puces.<br> Dans les listes ordonnées, ils sont habituellement affichés avec compteur croissant à gauche, tel qu'un nombre ou une lettre.</p>
+        
 
 
-
-</p>
-
-
+      
+		
 
 
+	</footer>
+		
 
-
-
-</footer>
-
-
-
+	
 
 </body>
 </html>
-
- 

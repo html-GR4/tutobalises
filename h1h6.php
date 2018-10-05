@@ -1,20 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>structure page de garde</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/balises.css">
-</head>
-<body>
-	<header>
-		<h1><a href="pdg.html"><img src="images/html.jpg"></a></h1>
-		
-
-	</header>
-	<nav>
-		<div>
-				  <ul class="menu">
+<?php include ("tete.html"); ?>
+    <nav>
+        <div>
+                  <ul class="menu">
         <li>Squelette
             <ul class="sousmenu">
                 <li><a href="body.html">body</a></li>
@@ -56,40 +43,32 @@
         
     </ul>
 
-		</div>
+        </div>
 
 
 
 
 
 
-</nav>
+	</nav>
 
-
-
-<footer>
-<p class="defimg">La balise "img"<br><br></p>
-<p><img src="images/imtxt.png" alt="description de la balise img" class="img2"></p>
-<p class="txtimg">L'élément HTML &lt;img&gt; permet de représenter une image dans un document.
-	Dans l'exemple qui précède, on utilise l'élément &lt;img&gt; simplement. L'attribut src est obligatoire et contient le chemin de l'image qu'on souhaite afficher. L'attribut alt n'est pas obligatoire mais recommandé et contient une description textuelle de l'image ; il est recommandé pour des raisons d'accessibilité et sera utilisé par les lecteurs d'écran ou sera affiché si l'image ne peut pas être chargée.
+     
 	
+	<footer>
+        <p class="h1">Les balises "h1 et h6"<br><br></p>
+        <p><img src="images/h1eth6.jpg" class="imgbody"></p>
+         <p class="txt"> Les éléments < h1> à < h6> représentent six niveaux de titres dans un document, < h1> est le plus important et < h6> est le moins important. Un élément de titre décrit brièvement le sujet de la section qu'il introduit..</p>
+        
 
 
-
-</p>
-
-
+      
+		
 
 
+	</footer>
+		
 
-
-
-</footer>
-
-
-
+	
 
 </body>
 </html>
-
- 

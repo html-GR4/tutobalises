@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Balise body</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/balises.css">
+    <title>structure page de garde</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/balises.css">
 </head>
 <body>
+<<<<<<< HEAD:body.php
 	<?php echo "premier jour en PHP"?>
 	
 	<header>
 		<h1><a href="pdg.html"><img src="images/html.jpg"></a></h1>
 		
+=======
+    <header>
+        <h1><a href="pdg.html"><img src="images/html.jpg"></a></h1>
+        
+>>>>>>> 3be5afb8f6aca71b3b9ddf1df1fc255346db963b:body.html
 
-	</header>
-	<nav>
-		<div>
-				  <ul class="menu">
+    </header>
+    <nav>
+        <div>
+                  <ul class="menu">
         <li>Squelette
             <ul class="sousmenu">
                 <li><a href="body.html">body</a></li>
@@ -46,18 +52,18 @@
         </li>
         <li>Contact
             <ul class="sousmenu">
-                <li>Link1</li>
-                <li>Link2</li>
-                <li>Link3</li>
+                <li><a href="mailto:thecleaurelie.a@codeur.online">  Thècle-Aurélie</a></li>
+                <li><a href="mailto:rayan.g@codeur.online">Rayan</a></li>
+                <li><a href="mailto:morganne.c@codeur.online">Morganne</a></li>
+                  <li><a href="mailto:robin.n@codeur.online">Robin</a></li>
             </ul>
                 </li>
             </ul>
         </li>
         
     </ul>
-   
-		</div>
 
+        </div>
 
 
 
@@ -68,7 +74,7 @@
      
 	
 	<footer>
-        <p class="def">La balise "body"<br><br></p>
+        <p class="defbodyy">La balise "body"<br><br></p>
         <p><img src="images/imgbody.png" class="imgbody"></p>
          <p class="txt">   Body viens de l'anglais corps. La balise body est une balise du squelette de base de l'html . Elle est composée de tout ce qui est lu par l'utilisateur et ce qui se doit d'être affiché . Comme des liens , texte , images , ... Exemple de l'utilisation de la balise "< body>".</p>
         
