@@ -1,7 +1,9 @@
-<?php include ("tete.html"); ?>
+<?php 
+    $pagetitle = 'P';
+    include ("tete.php"); ?>
 
 	<footer>
-        <p class="def">Balise &lt;p&gt;</p>
+        <p class="def">Balise "p"</p>
         
         <p class="txtp">L'élément HTML &lt;p&gt; représente un paragraphe de texte. Les paragraphes sont généralement représentés 
             comme des blocs et séparés par un espace vertical, leur première ligne est également parfois indentée. 
@@ -29,10 +31,3 @@
             pour obtenir l'effet désiré.</p>
             
     </footer>
-    
-		
-
-	
-
-</body>
-</html>

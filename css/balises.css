@@ -175,7 +175,7 @@ a{
 .txtp{
 	position: relative;
 	left: 450px;
-	top: 150px;
+	top: 10px;
 	width: 750px;
 }
 
@@ -209,7 +209,7 @@ a{
 
 .txtu{
 	position: relative;
-	left: 450px;
+	left: 500px;
 	top: 320px;
 	width: 750px;
 }
@@ -403,4 +403,30 @@ position:absolute;
 	left:660px;
 	top:520px;
 	font-size: 50px
+}
+
+.defarea{
+	position:absolute;
+	left:660px;
+	top:170px;
+	font-size: 50px
+}
+.form{
+	position:absolute;
+	left:650px;
+	top:170px;
+	font-size: 50px
+}
+.imgg{
+
+	position:absolute;
+	left:650px;
+	top:170px;
+	font-size: 50px
+}
+.ultxt{
+	position: absolute;
+	left: 450px;
+	top:460px;
+	width: 750px;
 }

@@ -1,7 +1,9 @@
-<?php include ("tete.html"); ?>
+<?php 
+    $pagetitle = 'Title';
+    include ("tete.php"); ?>
 
 	<footer>
-        <p class="def">Balise &lt;title&gt;</p>
+        <p class="def">Balise "title"</p>
         
         <p class="txttitle">L'élément &lt;title&gt; définit le titre de votre site (qui est affiché dans la barre de titre du navigateur 
             ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait 
@@ -27,6 +29,3 @@
         <p class="txttitle"><img src="images/title3.jpg"  class="title3" alt="Troisième exemple title" /></p>
         
     </footer>	
-
-</body>
-</html>

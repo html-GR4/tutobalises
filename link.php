@@ -1,7 +1,9 @@
-<?php include ("tete.html"); ?>
+<?php 
+  $pagetitle='Link';
+ include ("tete.php"); ?>
 
 	<footer>
-        <p class="def">Balise &lt;link&gt;</p>
+        <p class="def">Balise "link"</p>
         
         <p class="txtlink">L'élément HTML &lt;link&gt; définit la relation entre le document courant et une ressource externe. Cet 
             élément peut être utilisé pour définir un lien vers une feuille de style ou un cadre de navigation (accéder 
@@ -33,8 +35,7 @@
         
         <p class="txtlink">Note : L'évènement load est déclenché une fois que la feuille de style et que le contenu associé ont été 
             chargés et analysés et immédiatement avant que la mise en forme soit appliquée au contenu.</p>
-		
-
+tete.php
 
     </footer>	
 
