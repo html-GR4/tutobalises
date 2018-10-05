@@ -1,9 +1,9 @@
 <?php include ("tete.html"); ?>
 
 	<footer>
-        <p class="def">Balise &lt;textarea&gt;</p>
+        <p class="defarea">Balise "textarea"</p>
         
-        <p class="txtarea">L'élément HTML &lt;textarea&gt; représente un contrôle qui permet d'éditer du texte sur plusieurs lignes. C’est la 
+        <p class="txtarea">L'élément HTML"textarea" représente un contrôle qui permet d'éditer du texte sur plusieurs lignes. C’est la 
             fenêtre de messagerie que l’on retrouve le plus souvent dans la page dédiée au formulaire de contact.</p>
         
         <h2 class="txtarea">Interraction avec CSS</h2>
